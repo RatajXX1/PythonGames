@@ -48,9 +48,6 @@ def move(keys):
 		else:
 			snake.x = resolution[0]-10
 	
-def start():
-	for x in range(10):
-		print(x)
 parts = 0
 last_pos = []
 
