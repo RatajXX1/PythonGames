@@ -61,7 +61,6 @@ def snakess():
 			part = pygame.draw.rect(window, (255,0,0), pygame.Rect(last_pos[len(last_pos)-(5	+s)][0], last_pos[len(last_pos)-(1+s)][1], 10,10))
 
 while True:
-	# wydarzenie window
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			exit(0)
@@ -85,7 +84,7 @@ while True:
 		eat_apple = True 
 		new_apple()
 		parts += 50 
-	window.fill((0,0,0)) # czysczenie okna
+	window.fill((0,0,0))
 	for lines in range(80):
 		pygame.draw.line(window, (63,63,65), (10*lines,0), (10*lines, resolution[1]))
 	for lines_y in range(60):
