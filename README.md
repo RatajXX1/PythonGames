@@ -1,6 +1,5 @@
 # PythonGames
 
-[img]https://i.imgur.com/Wa5zmsL.png[/img]
-
+![alt text](https://i.imgur.com/Wa5zmsL.png)
 Pygame snake Game 
 
